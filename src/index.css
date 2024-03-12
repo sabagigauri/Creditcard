@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.picture {
+    background-image: url(./IMG/Group-10.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.wrapper {
+    width: 541px;
+    height: 527px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 30px;
+    margin: 120px;
+}
+
+.firstcard {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 32px;
+    padding-block: 26px;
+    width: 447px;
+    height: 245px;
+    background: linear-gradient(163.95deg, #6348FE 4.74%, #610595 88.83%);
+    border-radius: 8px;
+    gap: 60px;
+}
+
+.card-numb {
+    font-size: 26px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.card-numb::placeholder {
+    color: #fff;
+}
+
+.name-expire input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.name-expire input::placeholder {
+    color: #fff;
+}
+
+.bubble {
+    width: 50px;
+}
+
+.backcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 447px;
+    height: 245px;
+    background: linear-gradient(168.73deg, #FFFFFF 5%, #D2D3D9 91.69%);
+    border-radius: 8px;
+    padding-block: 15px;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.black-div {
+    background: #2F2F2F;
+    width: 447px;
+    height: 54px;
+}
+
+.cvc-div {
+    display: flex;
+    justify-content: end;
+    background: #ADB5BE;
+    Width: 361px;
+    Height: 38px;
+}
+
+.cvc {
+    background: transparent;
+    width: 50px;
+    border: 0;
+    outline: none;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 30px;
+}
+
+.inputInfo {
+    color: #21092F;
+    font-size: 12px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.first-input-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-input-row input {
+    width: 381px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    padding-inline: 15px;
+}
+
+.first-input-row input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    color: lightgrey;
+}
+
+.second-input-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-input-row input {
+    width: 381px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    padding-inline: 15px;
+}
+
+.second-input-row input::placeholder {
+    color: lightgrey;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+}
+
+.third-input-row {
+    display: flex;
+    gap: 30px;
+}
+
+.left-side {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+#date {
+    width: 170px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    padding-inline: 15px;
+}
+
+.input-row input::placeholder {
+    color: lightgrey;
+}
+
+.right-side {
+     display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.right-side input {
+    width: 185px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+     padding-inline: 15px;
+}
+
+.right-side input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    color: lightgrey;
+}
+
+.confirm {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 381px;
+    height: 53px;
+    border-radius: 8px;
+    background-color: #21092F;
+    color: white;
+}
+
+.thank {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    gap: 30px;
+}
+
+.tick {
+    width: 80px;
+}
+
+.btn {
+     font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 381px;
+    height: 53px;
+    border-radius: 8px;
+    background-color: #21092F;
+    color: white;
+}
